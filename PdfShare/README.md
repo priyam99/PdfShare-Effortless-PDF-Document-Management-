@@ -1,6 +1,6 @@
-# DocShare
+# PdfShare
 
-DocShare is a web application that allows users to upload, save, and share PDF documents easily. This repository contains the source code and necessary files for running the DocShare web application.
+PdfShare is a web application that allows users to upload, save, and share PDF documents easily. This repository contains the source code and necessary files for running the PdfShare web application.
 
 ## Features
 
@@ -12,16 +12,16 @@ DocShare is a web application that allows users to upload, save, and share PDF d
 
 ## Getting Started
 
-To run the DocShare web application locally, follow these steps:
+To run the PdfShare web application locally, follow these steps:
 
 1. Clone this repository to your local machine using the following command:
    ```
-   git clone https://github.com/your-username/docshare.git
+   git clone https://github.com/your-username/pdfshare.git
    ```
 
 2. Navigate to the project directory:
    ```
-   cd docshare
+   cd pdfshare
    ```
 
 3. Install the necessary dependencies:
