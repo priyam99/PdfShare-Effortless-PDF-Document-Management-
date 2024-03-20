@@ -1,6 +1,50 @@
 # PdfShare-Effortless-PDF-Document-Management
-Welcome to PdfShare, your go-to platform for uploading, saving, and sharing PDF documents effortlessly. Whether you're a student, a professional, or simply someone who deals with PDF files regularly, PdfShare offers a seamless and user-friendly experience to manage and distribute your documents efficiently.
 
-With PdfShare, you can easily upload your PDF files, organize them into folders, and access them from anywhere. Collaborate with colleagues or classmates by sharing documents securely, and streamline your workflow with our intuitive interface.
+PdfShare is a web application that allows users to upload, save, and share PDF documents easily. This repository contains the source code and necessary files for running the DocShare web application.
 
-PdfShare is designed to simplify your PDF document management needs, providing a reliable solution for individuals and teams alike. Join our community on GitHub and explore the possibilities of efficient PDF file sharing and collaboration today.
+## Features
+
+- Upload PDF documents from any device or computer
+- Generate unique shareable links for document and folder sharing
+- Set access permissions for recipients (view, download, edit)
+- Collaborate with colleagues and collaborators in real time
+- Responsive design for seamless usage on various devices and browsers
+
+## Getting Started
+
+To run the PdfShare web application locally, follow these steps:
+
+1. Clone this repository to your local machine using the following command:
+   ```
+   git clone https://github.com/your-username/docshare.git
+   ```
+
+2. Navigate to the project directory:
+   ```
+   cd pdfshare
+   ```
+
+3. Install the necessary dependencies:
+   ```
+   npm install
+   ```
+
+4. Configure the application by modifying the `config.js` file. You may need to set up a database connection and configure other environment-specific settings.
+
+5. Start the application:
+   ```
+   npm start
+   ```
+
+6. Open your web browser and visit `http://localhost:3000` to access the DocShare web application.
+
+## Contributing
+
+We welcome contributions to enhance the features and functionality of DocShare. To contribute:
+
+1. Fork this repository and create a new branch for your feature or bug fix.
+2. Make your changes and ensure that the code follows the existing coding style.
+3. Write tests to cover any new functionality or changes.
+4. Run the existing tests to ensure there are no regressions.
+5. Commit your changes and push them to your forked repository.
+6. Create a pull request in this repository, providing a detailed description of your changes.
