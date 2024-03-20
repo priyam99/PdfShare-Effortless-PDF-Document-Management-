@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+
+
+
+.navbar-body{
+    /* height: 8vh; */
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    color: white;
+    /* margin-top: 1rem; */
+    /* background: linear-gradient(270deg, #19522F 0%, rgba(56, 92, 70, 0) 100%) !important; */
+    background: linear-gradient(269.74deg, #0A2828 1.04%, #133E3E 100%);
+}
+
+
+
+.navbar-title{
+    font-size: 1.8rem;
+    font-family: 'Gamja Flower', cursive;
+}

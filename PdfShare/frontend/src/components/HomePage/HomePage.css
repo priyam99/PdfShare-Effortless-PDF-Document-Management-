@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+
+
+.homepage-body{
+    background: linear-gradient(243.18deg, #021C1D 0%, #132B2B 100%);
+    box-sizing: border-box;
+    overflow:  auto;
+    height: 100vh;
+    width: auto;
+    position: relative;
+}
+
+
+.homepage-grid{
+    margin-top: 5rem;
+    /* border: 1px wheat solid;     */
+}
+
+
+.homepage-grid-card{    
+    background-color: inherit !important;
+    box-shadow: none !important;
+    width: 100% !important;
+}
+
+.homepage-grid-card-content{
+    color: white !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.card-title{
+    font-size: 2rem !important;
+}
+
+
+
+.homepage-btn{
+    background: #E1FFFF !important;
+    border-radius: 12px !important;
+    color: black !important;
+    font-family: 'Gamja Flower', cursive !important;
+    width: 30% !important;
+    margin-top: 2rem !important;
+    font-size: medium !important;
+}
+
+.homepage-btn:hover {
+    background-color:#E1FFFF !important;
+}
+
+
+.homepage-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 1190px){
+    .card-title{
+        font-size: 1.6rem !important;
+    }
+    .homepage-btn{
+        width: 50% !important;
+    }
+}
+
+@media only screen and (max-width: 760px){
+  .btn-div{
+    justify-content:center !important;
+  }
+  .homepage-grid-card-content{
+    text-align: center !important;
+  }
+  .content-desc{
+    text-align: center !important;
+    word-spacing: 5px;
+  }
+}
+
+
+@media only screen and (max-width: 400px){
+    .card-title{
+        font-size: 1.4rem !important;
+    }
+    .homepage-grid{
+        margin-top: 0rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 300px) {
+    .homepage-footer{
+       bottom: 1;
+       margin-top: 10rem;
+       position: absolute;
+    }
+
+    .homepage-grid{
+        margin-top: 0rem;
+        margin-bottom: 5rem
+        /* border: 1px wheat solid;     */
+    }
+
+    .card-title{
+        font-size: 1.2rem !important;
+    }
+
+    .homepage-btn{
+        width: 50% !important;
+    }
+  }
+  
+
+  @media only screen and (max-width: 230px){
+    .homepage-btn{
+        width: 60% !important;
+    }
+}
